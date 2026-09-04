@@ -4,40 +4,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Technovation Alumnae Opportunities Hub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&amp;family=DM+Sans:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
- --slate: #2C3A4A;
- --slate-mid: #3D4F62;
- --slate-light: #546778;
- --pink: #E91E63;
- --pink-light: #FCE4EC;
- --pink-mid: #F06292;
- --orange: #FF9800;
- --orange-light: #FFF3E0;
- --warm-bg: #F7F6F3;
- --warm-border: #E8E5DF;
- --warm-border2: #DDD9D3;
+ --slate: #1D1349;
+ --slate-mid: #4A3F7A;
+ --slate-light: #8E89A4;
+ --pink: #0030EF;
+ --pink-light: #E4E9FD;
+ --pink-mid: #2E56F3;
+ --orange: #F69195;
+ --orange-light: #FCE0E1;
+ --warm-bg: #FAF4EC;
+ --warm-border: #EFE7D8;
+ --warm-border2: #E3D8C2;
  --card-bg: #FFFFFF;
- --red: #C62828;
- --red-light: #FFEBEE;
- --green: #2E7D32;
- --green-light: #E8F5E9;
- --blue: #283593;
- --blue-light: #E8EAF6;
- --teal: #00695C;
- --teal-light: #E0F2F1;
- --purple: #4527A0;
- --purple-light: #EDE7F6;
- --muted: #888;
- --text: #2C3A4A;
- --text-soft: #6B7785;
+ --red: #C05055;
+ --red-light: #FBDBDC;
+ --green: #1D1349;
+ --green-light: #ECF2C1;
+ --blue: #0C447C;
+ --blue-light: #DCEEFA;
+ --teal: #0C447C;
+ --teal-light: #DCEEFA;
+ --purple: #6B5FA0;
+ --purple-light: #ECEAF4;
+ --muted: #8B8580;
+ --text: #1D1349;
+ --text-soft: #5C5570;
 }
 
 body {
- font-family: 'DM Sans', system-ui, sans-serif;
+ font-family: 'Instrument Sans', system-ui, sans-serif;
  background: var(--warm-bg);
  color: var(--text);
  min-height: 100vh;
@@ -55,14 +55,14 @@ body {
  content: '';
  position: absolute;
  inset: 0;
- background: radial-gradient(ellipse at 110% 50%, rgba(233,30,99,0.18) 0%, transparent 65%);
+ background: radial-gradient(ellipse at 110% 50%, rgba(0,48,239,0.18) 0%, transparent 65%);
  pointer-events: none;
 }
 .tah-header-inner { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; }
 .tah-header h1 {
- font-family: 'Sora', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: clamp(1.2em, 3.5vw, 1.75em);
- font-weight: 600;
+ font-weight: 700;
  color: #fff;
  margin-bottom: 6px;
  line-height: 1.3;
@@ -120,7 +120,7 @@ body {
  position: sticky;
  top: 0;
  z-index: 100;
- box-shadow: 0 2px 12px rgba(44,58,74,0.08);
+ box-shadow: 0 2px 12px rgba(29,19,73,0.08);
 }
 
 /* ── PERSONA STRIP ── */
@@ -153,7 +153,7 @@ body {
  border-radius: 20px;
  background: var(--warm-bg);
  cursor: pointer;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.8em;
  font-weight: 500;
  color: var(--text-soft);
@@ -200,7 +200,7 @@ body {
  border-radius: 20px;
  background: #fff;
  cursor: pointer;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.74em;
  font-weight: 500;
  color: #666;
@@ -236,7 +236,7 @@ body {
  border: 1.5px solid var(--warm-border2);
  border-radius: 20px;
  background: #fff;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.74em;
  font-weight: 500;
  color: #666;
@@ -249,9 +249,9 @@ body {
 /* ── SECTIONS ── */
 .tah-section { margin-bottom: 38px; }
 .tah-section-title {
- font-family: 'Sora', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 1.15em;
- font-weight: 600;
+ font-weight: 700;
  color: var(--slate);
  margin-bottom: 14px;
  display: flex;
@@ -269,7 +269,7 @@ body {
  font-weight: 600;
  min-width: 26px;
  text-align: center;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
 }
 
 /* ── ACCORDION ITEMS ── */
@@ -280,9 +280,9 @@ body {
  background: var(--card-bg);
  transition: all 0.18s;
  overflow: hidden;
- box-shadow: 0 1px 3px rgba(44,58,74,0.05);
+ box-shadow: 0 1px 3px rgba(29,19,73,0.05);
 }
-.tah-item:hover { border-color: var(--pink-mid); box-shadow: 0 3px 10px rgba(233,30,99,0.08); }
+.tah-item:hover { border-color: var(--pink-mid); box-shadow: 0 3px 10px rgba(0,48,239,0.08); }
 
 .tah-row {
  padding: 14px 18px;
@@ -321,7 +321,7 @@ body {
  letter-spacing: 0.03em;
 }
 .tah-pill.urgent { background: var(--red-light); color: var(--red); }
-.tah-pill.soon { background: var(--orange-light); color: #B45309; }
+.tah-pill.soon { background: var(--orange-light); color: #96393D; }
 .tah-pill.future { background: var(--teal-light); color: var(--teal); }
 .tah-pill.rolling { background: var(--purple-light); color: var(--purple); }
 .tah-pill.new { background: var(--green-light); color: var(--green); }
@@ -383,10 +383,10 @@ body {
  letter-spacing: 0.03em;
 }
 .tb-urgent { background: var(--red-light); color: var(--red); }
-.tb-soon { background: var(--orange-light); color: #92400E; }
+.tb-soon { background: var(--orange-light); color: #96393D; }
 .tb-future { background: var(--teal-light); color: var(--teal); }
 .tb-new { background: var(--green-light); color: var(--green); }
-.tb-priority { background: var(--pink-light); color: #9C0040; }
+.tb-priority { background: var(--pink-light); color: #0022A8; }
 .tb-rolling { background: var(--purple-light); color: var(--purple); }
 .tb-loc { background: var(--blue-light); color: var(--blue); }
 
@@ -397,7 +397,7 @@ body {
  color: #fff !important;
  border: none;
  border-radius: 20px;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.8em;
  font-weight: 500;
  cursor: pointer;
@@ -405,9 +405,9 @@ body {
  text-decoration: none;
  white-space: nowrap;
  display: inline-block;
- box-shadow: 0 2px 6px rgba(233,30,99,0.25);
+ box-shadow: 0 2px 6px rgba(0,48,239,0.25);
 }
-.tah-btn:hover { background: var(--slate); box-shadow: 0 2px 8px rgba(44,58,74,0.25); }
+.tah-btn:hover { background: var(--slate); box-shadow: 0 2px 8px rgba(29,19,73,0.25); }
 
 .tah-copy-btn {
  padding: 6px 10px;
@@ -419,7 +419,7 @@ body {
  cursor: pointer;
  transition: all 0.16s;
  white-space: nowrap;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
 }
 .tah-copy-btn:hover { background: var(--warm-bg); border-color: var(--slate); color: var(--slate); }
 
@@ -436,7 +436,7 @@ body {
  font-weight: 500;
  z-index: 1000;
  animation: tah-slide-in 0.25s ease-out;
- box-shadow: 0 4px 16px rgba(44,58,74,0.25);
+ box-shadow: 0 4px 16px rgba(29,19,73,0.25);
 }
 @keyframes tah-slide-in { from { transform: translateX(300px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes tah-fade-out { to { opacity: 0; transform: translateX(300px); } }
@@ -481,7 +481,7 @@ body {
  border: 1.5px solid var(--warm-border2);
  border-radius: 20px;
  background: var(--warm-bg);
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.73em;
  font-weight: 500;
  color: var(--text-soft);
@@ -508,8 +508,8 @@ body {
 
 /* ── WELCOME PROMPT ── */
 .tah-welcome-prompt {
- background: linear-gradient(135deg, var(--pink-light) 0%, #FFF8F0 100%);
- border: 1.5px solid rgba(233,30,99,0.18);
+ background: linear-gradient(135deg, var(--pink-light) 0%, #FDF9F2 100%);
+ border: 1.5px solid rgba(0,48,239,0.18);
  border-radius: 10px;
  padding: 12px 16px;
  margin-bottom: 18px;
@@ -535,7 +535,7 @@ body {
  line-height: 1;
  opacity: 0.6;
  transition: opacity 0.15s;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
 }
 .tah-welcome-prompt .tah-wp-close:hover { opacity: 1; }
 .tah-welcome-prompt strong { color: var(--pink); }
@@ -560,7 +560,7 @@ body {
  background: var(--teal);
  color: #fff !important;
  border-radius: 20px;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.8em;
  font-weight: 500;
  text-decoration: none;
@@ -586,7 +586,7 @@ body {
  display: none;
  align-items: center;
  justify-content: center;
- box-shadow: 0 3px 12px rgba(44,58,74,0.3);
+ box-shadow: 0 3px 12px rgba(29,19,73,0.3);
  z-index: 999;
  transition: background 0.15s, opacity 0.2s;
  -webkit-tap-highlight-color: transparent;
@@ -600,7 +600,7 @@ body {
  font-weight: 400;
  color: var(--muted);
  margin-left: auto;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
 }
 
 /* ── CARD URGENCY BORDER ACCENTS ── */
@@ -617,7 +617,7 @@ body {
  background: var(--warm-bg);
  border: none;
  border-bottom: 1px solid var(--warm-border);
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.82em;
  font-weight: 500;
  color: var(--slate-mid);
@@ -651,7 +651,7 @@ body {
  border: 1.5px solid var(--warm-border2);
  border-radius: 20px;
  background: #fff;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
  font-size: 0.74em;
  font-weight: 500;
  color: #666;
@@ -716,15 +716,15 @@ body {
 
 /* ── TECHNOVATION EXCLUSIVE SECTION ── */
 .tah-section.tah-exclusive {
- background: linear-gradient(135deg, #FFF8F0 0%, #FFF0F5 100%);
- border: 2px solid #F8BBD0;
+ background: linear-gradient(135deg, #FDF9F2 0%, #EEF1FC 100%);
+ border: 2px solid #C7D2FA;
  border-radius: 16px;
  padding: 20px 22px 10px;
  margin-bottom: 38px;
 }
 .tah-section.tah-exclusive .tah-section-title {
  color: var(--pink);
- border-bottom-color: #F8BBD0;
+ border-bottom-color: #C7D2FA;
 }
 .tah-exclusive-badge {
  display: inline-flex;
@@ -737,7 +737,7 @@ body {
  padding: 3px 10px;
  border-radius: 20px;
  letter-spacing: 0.03em;
- font-family: 'DM Sans', sans-serif;
+ font-family: 'Instrument Sans', sans-serif;
 }
 .tah-exclusive-subtitle {
  font-size: 0.83em;
@@ -751,7 +751,7 @@ body {
  margin-bottom: 16px;
  line-height: 1.6;
  padding: 10px 14px;
- background: rgba(233,30,99,0.05);
+ background: rgba(0,48,239,0.05);
  border-radius: 8px;
  border-left: 3px solid var(--pink);
 }
@@ -765,11 +765,11 @@ body {
  <h1> Technovation Alumnae Opportunities Hub</h1>
  <p class="tagline">Your gateway to scholarships, programs, fellowships, jobs, and career opportunities worldwide</p>
  <div class="tah-accent-dots">
- <span style="background:#E91E63;"></span>
- <span style="background:#FF9800;"></span>
+ <span style="background:#0030EF;"></span>
+ <span style="background:#F69195;"></span>
  <span style="background:rgba(255,255,255,0.2);"></span>
  </div>
- <span class="tah-updated">Last Updated: August 5, 2026</span>
+ <span class="tah-updated" id="tah-last-updated">Last Updated: September 2026</span>
  </div>
 </div>
 
@@ -786,7 +786,7 @@ body {
 <!-- TAG GUIDE (collapsible) -->
 <div style="background:#fff; border-bottom:1px solid var(--warm-border); padding:0 28px;">
  <button onclick="var d=document.getElementById('tah-tag-guide');var open=d.style.display==='block';d.style.display=open?'none':'block';this.querySelector('.tah-tg-chev').style.transform=open?'':'rotate(180deg)'"
- style="background:none;border:none;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:0.74em;color:var(--muted);padding:8px 0;display:flex;align-items:center;gap:5px;font-weight:500;">
+ style="background:none;border:none;cursor:pointer;font-family:'Instrument Sans',sans-serif;font-size:0.74em;color:var(--muted);padding:8px 0;display:flex;align-items:center;gap:5px;font-weight:500;">
  What do these tags mean?
  <span class="tah-tg-chev" style="font-size:0.75em;transition:transform 0.2s;">▼</span>
  </button>
@@ -886,17 +886,17 @@ body {
  <h2 class="tah-section-title"> Technovation Exclusive <span class="tah-exclusive-badge">HOSTED BY TECHNOVATION</span> <span class="tah-section-count" data-cat-count="technovation">0</span></h2>
  <p class="tah-exclusive-subtitle">Opportunities created, hosted, or co-sponsored directly by Technovation &mdash; available exclusively (or with priority access) to our alumnae community. These are yours first.</p>
 
- <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="soon">
+ <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="soon" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">2026&ndash;27 Student Ambassador Applications</div>
  <div class="tah-meta">
  <span class="tah-pill soon">Applications close September 6, 2026</span>
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>What it is:</strong> Student Ambassadors bring Technovation to their own schools and communities &mdash; recruiting girls, forming teams, running workshops, and connecting students to mentors. In many regions, they are the program.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Last season's impact:</strong> 85 Student Ambassadors completed the full season across every region Technovation serves &mdash; including one in Egypt who supported 533 girls and 57 teams and built a participant-tracking system and mentor-matching network; one in Kazakhstan who reached 400 girls despite limited devices and no local mentors; one in Uzbekistan who supported 220 girls and translated program materials into her own language; and one in Canada who formed 15 new teams and founded a permanent Technovation Club at her high school.</span></div>
@@ -904,50 +904,24 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Know someone?</strong> If you know a student who wants to build something real in their community, send them our way.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://forms.gle/huF4tQzYnKWwhgzA9')"> Copy Link</button>
  <a class="tah-btn" href="https://forms.gle/huF4tQzYnKWwhgzA9" target="_blank">Apply by Sept 6 &rarr;</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
- <div class="tah-row">
- <div class="tah-title">Builder&rsquo;s Room: Your AI Works. Now What?</div>
- <div class="tah-meta">
- <span class="tah-pill rolling">Date TBA &mdash; register for updates</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Virtual</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Virtual</span></div>
- <div class="tah-grid">
- <div class="tah-detail full"><span></span><span><strong>Featuring:</strong> Maria Zervou, Chief AI Officer EMEA at Databricks, on the gap between AI experiments and AI products that actually survive.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Format:</strong> Virtual and interactive &mdash; ask Maria your own questions and share what you&rsquo;re building. Register to get the link one hour before; a recording will be available afterward.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Bonus:</strong> Maria will share where Builder&rsquo;s Room attendees can go to learn and try the Databricks platform for free.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Get real talk on data advantage, trust, and what it takes to move an AI project from prototype to something that scales &mdash; plus what&rsquo;s actually real with AI agents right now.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Virtual</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://luma.com/oq5lhynj')"> Copy Link</button>
- <a class="tah-btn" href="https://luma.com/oq5lhynj" target="_blank">Register &rarr;</a>
- </div>
- </div>
- </div>
-
- 
-   <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+   <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Lead, Speak, Mentor: Share Your Gifts</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Ongoing opportunities</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Time Commitment:</strong> Flexible—whether you have 5 minutes or 5 hours, there's a way to contribute</span></div>
  <div class="tah-detail full"><span></span><span><strong>Opportunities:</strong> Speaking at global events, interviewing Women Techmakers leaders, joining the AI Forward Alliance (TAIFA), and mentoring current students</span></div>
@@ -955,7 +929,7 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Share your expertise and experiences to inspire and guide the next generation of women in tech</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://docs.google.com/forms/u/3/d/e/1FAIpQLSf3PXPV1lS0yed8HR_hXUM9-hk0NOIjnt19WH68KpjAN9ICxQ/viewform?usp=send_form')"> Copy Link</button>
  <a class="tah-btn" href="https://docs.google.com/forms/u/3/d/e/1FAIpQLSf3PXPV1lS0yed8HR_hXUM9-hk0NOIjnt19WH68KpjAN9ICxQ/viewform?usp=send_form" target="_blank">Apply Now →</a>
  </div>
@@ -963,24 +937,24 @@ body {
  </div>
 
  
- <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Be Featured in an Alumnae Spotlight</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling submissions</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Share Your Story:</strong> Tell us about what you're building, launching, or working on in your career or venture.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Visibility:</strong> Submissions may be featured in the Technovation Alumnae LinkedIn group and broader Technovation channels.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Amplify your work, connect with the global Technovation community, and inspire fellow alumnae with your journey.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://form.asana.com/?k=QOx2yUqSFeyQlt_Iz7tBUw&amp;d=19609581394909')">? Copy Link</button>
  <a class="tah-btn" href="https://form.asana.com/?k=QOx2yUqSFeyQlt_Iz7tBUw&amp;d=19609581394909" target="_blank">Apply Now ?</a>
  </div>
@@ -988,17 +962,17 @@ body {
  </div>
 
 
- <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Special Projects with Technovation HQ</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling applications</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Opportunities:</strong> Short-term, skills-based volunteer roles in fundraising research, curriculum development, data analysis, copywriting, translation, and more.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Compensation:</strong> Potential stipend of $400?$500+ plus formal Letter of Recommendation upon completion.</span></div>
@@ -1006,7 +980,7 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Use your professional skills to directly support Technovation's mission while building your portfolio and credentials.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://form.asana.com/?k=c8X3t2QpuqtMlc0PTndfpw&amp;d=19609581394909')">? Copy Link</button>
  <a class="tah-btn" href="https://form.asana.com/?k=c8X3t2QpuqtMlc0PTndfpw&amp;d=19609581394909" target="_blank">Apply Now ?</a>
  </div>
@@ -1018,6 +992,29 @@ body {
 
 
 
+
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="us" data-deadline="rolling" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">Program Intern &mdash; Technovation</div>
+ <div class="tah-meta">
+ <span class="tah-pill rolling">Rolling &mdash; see job description for current status</span>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US / Remote</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US / Remote</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail full"><span></span><span><strong>Role:</strong> Programs/Operations internship supporting Technovation&rsquo;s global program work. See the linked job description for term, hours, and eligibility details.</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> A direct way for alumnae to stay connected to Technovation while building program operations experience from the inside.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US / Remote</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://drive.google.com/file/d/1FlQdqA-oOlJjMXwrsqkZet1spXif_8yf/view')"> Copy Link</button>
+ <a class="tah-btn" href="https://drive.google.com/file/d/1FlQdqA-oOlJjMXwrsqkZet1spXif_8yf/view" target="_blank">View Job Description &rarr;</a>
+ </div>
+ </div>
+ </div>
 
  </div><!-- /technovation exclusive -->
 
@@ -1037,66 +1034,43 @@ body {
  
  <h2 class="tah-section-title"> Scholarships <span class="tah-section-count" data-cat-count="scholarships">0</span></h2>
 
- <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="soon">
+ <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="soon" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Endeavour Women in Tech Scholarship</div>
  <div class="tah-meta">
  <span class="tah-pill soon">Applications close September 8, 2026</span>
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> September 8, 2026</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> $5,000&ndash;$10,000</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women graduating high school and entering their freshman year of college this fall, or current college/graduate students at a US college or university. Minimum 3.5 GPA, pursuing a STEM major.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Annual scholarship from the Endeavour Women in Tech (EWIT) network &mdash; $85K+ awarded to 15 recipients across 12 universities since 2022.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.endeavourii.com/scholarships')"> Copy Link</button>
  <a class="tah-btn" href="https://www.endeavourii.com/scholarships" target="_blank">Apply Now &rarr;</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="secondary" data-loc="intl" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">EIT Oxford &mdash; Undergraduate Ellison Scholars</div>
- <div class="tah-meta">
- <span class="tah-pill future">2026 window closed &mdash; opens May 2027</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail full"><span></span><span><strong>What it is:</strong> A fully-funded University of Oxford undergraduate degree, in any discipline, plus paid 10-week EIT research internships each summer in AI &amp; robotics, health, climate, or food security.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Graduating secondary school students who can meet Oxford&rsquo;s undergraduate entry requirements; open internationally, need-blind.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Timeline:</strong> The 2026 application window (May 1&ndash;July 31, 2026) has closed. The next window is expected to open around May 2027 &mdash; register for an information session to be notified.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Highly competitive, but one of the most generous fully-funded pathways to Oxford available &mdash; worth flagging early for alumnae still in secondary school.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://eit.org/education-and-scholarships/undergraduate')"> Copy Link</button>
- <a class="tah-btn" href="https://eit.org/education-and-scholarships/undergraduate" target="_blank">Learn More &rarr;</a>
- </div>
- </div>
- </div>
 
-    <div class="tah-item" data-personas="all" data-loc="us" data-deadline="rolling">
+
+    <div class="tah-item" data-personas="all" data-loc="us" data-deadline="rolling" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">AAUW Career Development Grants</div>
         <div class="tah-meta">
           <span class="tah-pill rolling">Rolling applications accepted</span>
-          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> Rolling basis</span></div>
           <div class="tah-detail full"><span></span><span><strong>Award:</strong> Up to $8,000</span></div>
@@ -1104,7 +1078,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Supports career transitions and advancement through short-term accredited programs (6-12 months)</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://www.aauw.org/resources/programs/fellowships-grants/career-development-grants/')">📋 Copy Link</button>
           <a class="tah-btn" href="https://www.aauw.org/resources/programs/fellowships-grants/career-development-grants/" target="_blank">Apply Now →</a>
         </div>
@@ -1112,17 +1086,17 @@ body {
     </div>
 
 
-    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="future">
+    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="future" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">Society of Women Engineers (SWE) Scholarships</div>
         <div class="tah-meta">
           <span class="tah-pill future">Applications open Feb 10, close March 31, 2027</span>
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> February 10 - March 31, 2027</span></div>
           <div class="tah-detail full"><span></span><span><strong>Award:</strong> $1,000 - $20,000</span></div>
@@ -1130,7 +1104,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> 330+ scholarships totaling over $1 million annually, includes mentorship and networking</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://swe.org/scholarships/')">📋 Copy Link</button>
           <a class="tah-btn" href="https://swe.org/scholarships/" target="_blank">Learn More →</a>
         </div>
@@ -1138,57 +1112,11 @@ body {
     </div>
 
 
-    <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">Generation Google Scholarship (Women in Tech)</div>
- <div class="tah-meta">
- <span class="tah-pill future">Aug 14, 2026</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> August 14, 2026</span></div>
- <div class="tah-detail"><span></span><span><strong>Award:</strong> $2,500–$10,000 USD</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women in CS/engineering; programs available for APAC, EMEA, and North America. Must be enrolled in an undergraduate or graduate program.</span></div>
- <div class="tah-detail full"><span></span><span>For students demonstrating leadership and financial need. One of the most recognized scholarships for women in tech — strong Technovation alumni fit.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://www.google.com/about/careers/applications/buildyourfuture/scholarships/')"> Copy Link</button>
- <a class="tah-btn" href="https://www.google.com/about/careers/applications/buildyourfuture/scholarships/" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">MPOWER Women in STEM Scholarship</div>
- <div class="tah-meta">
- <span class="tah-pill future">Jul 31, 2026</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> July 31, 2026</span></div>
- <div class="tah-detail"><span></span><span><strong>Award:</strong> $5,000 (1st)  $2,000 (2nd)  $1,000 (3rd)</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> International or DACA female students enrolled full-time in a STEM degree at a US or Canadian school — US citizens not eligible. No MPOWER loan required.</span></div>
- <div class="tah-detail full"><span></span><span>Great fit for Technovation alumnae from UNICEF program countries studying in the US or Canada.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://www.mpowerfinancing.com/scholarships/women-in-stem')"> Copy Link</button>
- <a class="tah-btn" href="https://www.mpowerfinancing.com/scholarships/women-in-stem" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="all secondary" data-loc="us" data-deadline="rolling">
+
+
+ <div class="tah-item" data-personas="all secondary" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">iD Tech Scholarships</div>
  <div class="tah-meta">
@@ -1212,7 +1140,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Mastercard Foundation Scholars Program</div>
  <div class="tah-meta">
@@ -1247,68 +1175,30 @@ body {
  
  <h2 class="tah-section-title"> Fellowships &amp; Research Opportunities <span class="tah-section-count" data-cat-count="fellowships">0</span></h2>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="soon">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="soon" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">AI Societal Impact Lab &mdash; Autumn 2026 Fellowship</div>
- <div class="tah-meta"><span class="tah-pill soon">Rolling &mdash; closes September 4, 2026 or when filled</span><div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div></div>
+ <div class="tah-meta"><span class="tah-pill soon">Rolling &mdash; closes September 4, 2026 or when filled</span><div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">International</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Format:</strong> Remote, ~8&ndash;10 weeks starting mid/late September 2026</span></div><div class="tah-detail"><span></span><span><strong>Time:</strong> ~4 hrs/week (1 group call + 3 hrs individual work)</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Recent graduates and early-career individuals working on the societal and policy implications of AI. Social sciences and humanities backgrounds encouraged; STEM and other backgrounds explicitly welcome.</span></div>
  <div class="tah-detail full"><span></span><span>Fellows get mentorship from an AI Societal Impact Lab fellow, work on a group project, publish their own analytical piece, and take part in workshops and seminars &mdash; a good complement to the more technical AI opportunities on this page.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.aisocietalimpactlab.com/fellowship-autumn-2026')"> Copy Link</button>
  <a class="tah-btn" href="https://www.aisocietalimpactlab.com/fellowship-autumn-2026" target="_blank">Apply Now &rarr;</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="earlycareer" data-loc="us" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">UNIDIR Women in AI Fellowship 2026</div>
- <div class="tah-meta"><span class="tah-pill future">TBD 2026</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Geneva, Switzerland (June 8-12, 2026)</span></div></div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Geneva, Switzerland (June 8-12, 2026)</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> TBD 2026</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Week-long in-person training in Geneva + AI lab visits + networking</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Junior and mid-career women diplomats and government representatives interested in AI governance and security</span></div>
- <div class="tah-detail full"><span></span><span>United Nations Institute for Disarmament Research fellowship focused on AI's impact on international peace and security. Covers AI governance, military AI applications, and gendered impacts. Includes education, expert networking, and field trips to AI labs. Must apply through diplomatic representation.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Geneva, Switzerland (June 8-12, 2026)</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://unidir.org/women-ai/')"> Copy Link</button>
- <a class="tah-btn" href="https://unidir.org/women-ai/" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="university earlycareer" data-loc="us" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">AI Policy Fellowship 2026 (IAPS)</div>
- <div class="tah-meta"><span class="tah-pill future">TBD (Summer 2026 cohort June-August)</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Washington, D.C. or Remote</span></div></div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Washington, D.C. or Remote</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> TBD (Summer 2026 cohort June-August)</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Fully funded 3-month professional fellowship</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Diverse policy and technical backgrounds, from undergrads to senior experts</span></div>
- <div class="tah-detail full"><span></span><span>Institute for AI Policy and Strategy fellowship to build practical AI policy skills and shape national/global AI governance. Weekly 1-on-1 coaching, mentor support, policy-relevant outputs. Open to women and underrepresented groups in AI policy.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Washington, D.C. or Remote</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://opportunitiesforyouth.org/2026/01/13/fully-funded-ai-policy-fellowship-2025-by-institute-for-ai-policy-and-strategy-iaps/')"> Copy Link</button>
- <a class="tah-btn" href="https://opportunitiesforyouth.org/2026/01/13/fully-funded-ai-policy-fellowship-2025-by-institute-for-ai-policy-and-strategy-iaps/" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
+
+
 
  
 
@@ -1318,17 +1208,17 @@ body {
 
  
 
- <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Gates Foundation India — AI Fellow (First-Ever Cohort)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Apply Now</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Not listed — applications open now, apply promptly</span></div>
  <div class="tah-detail"><span></span><span><strong>Location:</strong> New Delhi, India (India Country Office)</span></div>
@@ -1337,38 +1227,38 @@ body {
  <div class="tah-detail full"><span></span><span>First-ever cohort at the Gates Foundation India Country Office — a career-defining opportunity to apply AI to real-world global health and development challenges at one of the world's most influential nonprofits.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/New-Delhi-India/AI-Fellow_B021482-2')"> Copy Link</button>
  <a class="tah-btn" href="https://gatesfoundation.wd1.myworkdayjobs.com/Gates/job/New-Delhi-India/AI-Fellow_B021482-2" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all earlycareer" data-loc="us" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">RAY Fellowship Program — Conservation &amp; Clean Energy</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling — check site for current cohort</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Paid fellowship placement</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Early-career professionals in the US interested in conservation, clean energy, and sustainability sectors.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://rayfellowship.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://rayfellowship.org/" target="_blank">Learn More →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">EDSAFE Women in AI Fellowship 2026</div>
  <div class="tah-meta">
@@ -1393,7 +1283,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Non-Trivial Fellowship</div>
  <div class="tah-meta">
@@ -1424,41 +1314,41 @@ body {
  <div class="tah-section" id="sec-jobs" data-cat="jobs">
  <h2 class="tah-section-title"> Jobs &amp; Career Platforms <span class="tah-section-count" data-cat-count="jobs">0</span></h2>
 
- <div class="tah-item" data-personas="all earlycareer" data-loc="us" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">The Next IT Girl &mdash; Careers</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling &mdash; 5 open roles</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Open roles:</strong> Program Operations Manager (Charleston, SC &mdash; $25/hr); Program Facilitators (Charleston SC, Indianapolis IN, and Atlanta GA &mdash; contractor, $21.50&ndash;$25/hr); Board Member (Remote, part-time).</span></div>
  <div class="tah-detail full"><span></span><span><strong>About:</strong> A technology education nonprofit introducing girls ages 8&ndash;22 to multidisciplinary tech careers &mdash; a peer organization working in the same space as Technovation.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Good fit for alumnae interested in program management, facilitation, or nonprofit board experience.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://jobs.gusto.com/boards/the-next-it-girl-a9c3aea4-defc-4954-89d9-63f122f6bc06')"> Copy Link</button>
  <a class="tah-btn" href="https://jobs.gusto.com/boards/the-next-it-girl-a9c3aea4-defc-4954-89d9-63f122f6bc06" target="_blank">View Openings &rarr;</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="university" data-loc="us" data-deadline="rolling">
+ <div class="tah-item" data-personas="university" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Software Engineering Intern, BS, Summer 2027</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Summer 2027 (12-14 weeks)</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Compensation:</strong> $98,000-$131,000 base salary plus benefits including health, dental, vision insurance and paid time off.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Location:</strong> Various locations across North America including US and Canada.</span></div>
@@ -1467,7 +1357,7 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Gain hands-on experience at Google working on products used by billions, with mentorship, executive speaker series, and professional development opportunities.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027')"> Copy Link</button>
  <a class="tah-btn" href="https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027" target="_blank">Apply Now →</a>
  </div>
@@ -1475,17 +1365,17 @@ body {
  </div>
 
 
-    <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+    <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Adaption Labs — Open Roles</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Actively hiring — check site for current openings</span></div>
  <div class="tah-detail"><span></span><span><strong>Location:</strong> Remote-friendly globally; US, Canada, Europe, Latin America, India</span></div>
@@ -1493,72 +1383,72 @@ body {
  <div class="tah-detail full"><span></span><span>Founded by Sara Hooker (former Google Brain research lead), Adaption Labs is building the next era of adaptive AI. A cutting-edge team at a meaningful moment — worth watching even if current roles aren't a fit yet.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.adaptionlabs.ai/careers')"> Copy Link</button>
  <a class="tah-btn" href="https://www.adaptionlabs.ai/careers" target="_blank">View Roles →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Tech Ladies Job Board</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Daily updates</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Updated daily</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free to browse</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Women in tech globally — jobs curated from companies that have committed to gender diversity in hiring.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.hiretechladies.com/jobs')"> Copy Link</button>
  <a class="tah-btn" href="https://www.hiretechladies.com/jobs" target="_blank">Browse Jobs →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">PowerToFly</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Daily updates</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Updated daily</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free to browse</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Underrepresented talent in tech — connects candidates with companies actively prioritizing diversity hiring. Remote and in-person roles globally.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.powertofly.com')"> Copy Link</button>
  <a class="tah-btn" href="https://www.powertofly.com" target="_blank">Browse Jobs →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Outreachy — Paid Open Source Internships</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Multiple cohorts/year</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Multiple cohorts per year — check site for current cycle</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> $7,000 USD stipend per internship</span></div>
@@ -1566,14 +1456,14 @@ body {
  <div class="tah-detail full"><span></span><span>Specifically designed for underrepresented people in tech. Interns contribute to real open-source projects with mentorship from experienced contributors. No prior open-source experience required.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.outreachy.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.outreachy.org/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Remotely Works — Remote Tech Jobs</div>
  <div class="tah-meta">
@@ -1597,7 +1487,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">80,000 Hours Job Board</div>
  <div class="tah-meta">
@@ -1621,17 +1511,17 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Apple Apprenticeships — Project Management &amp; Marketing (UK)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Open Now</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Applications opened April 24, 2026 — rolling</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Paid 2-year full-time apprenticeship (Level 4)</span></div>
@@ -1640,24 +1530,24 @@ body {
  <div class="tah-detail full"><span></span><span>Two tracks: Project Management (Level 4) and Marketing (Level 4). Inclusion and diversity are at the heart of Apple's apprenticeship program. This is a rare opportunity to build a career at one of the world's leading tech companies from the ground up.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://events.apple.com/ms/xww6uj7woR0X9A3T8KcNQkRVdH60MurN7MAvJSY75sHQxWqaTEhMjEmalXqC7MMJuZhb5crVxf5sKUXGDQ_UXlJXr_Rqae-Bb-r9ydviPg35QL2xxEyYNclWUFx8A8-2xji3/overview?a=1&amp;Locale=en_GB&amp;l=e')"> Copy Link</button>
  <a class="tah-btn" href="https://events.apple.com/ms/xww6uj7woR0X9A3T8KcNQkRVdH60MurN7MAvJSY75sHQxWqaTEhMjEmalXqC7MMJuZhb5crVxf5sKUXGDQ_UXlJXr_Rqae-Bb-r9ydviPg35QL2xxEyYNclWUFx8A8-2xji3/overview?a=1&amp;Locale=en_GB&amp;l=e" target="_blank">View Portal →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">ServiceNow RiseUp Program</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling admissions</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free training + job placement pathways</span></div>
@@ -1665,7 +1555,7 @@ body {
  <div class="tah-detail full"><span></span><span>Free skills training in AI, ITSM, and ServiceNow platform — plus direct job placement into the ServiceNow ecosystem. Certifications included. Great bridge program for career switchers and early-career alumnae.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://learning.servicenow.com/apply')"> Copy Link</button>
  <a class="tah-btn" href="https://learning.servicenow.com/apply" target="_blank">Apply Now →</a>
  </div>
@@ -1692,41 +1582,19 @@ body {
  
  <h2 class="tah-section-title"> Events &amp; Competitions <span class="tah-section-count" data-cat-count="events">0</span></h2>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="soon">
- <div class="tah-row">
- <div class="tah-title">AI Builders Challenge with IBM Bob</div>
- <div class="tah-meta">
- <span class="tah-pill soon">August round closes August 31, 2026</span>
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> August 31, 11:59 PM ET</span></div><div class="tah-detail"><span></span><span><strong>Prize pool:</strong> $15,000 total</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> College/university students 18+ (undergrad, grad, or PhD), any major. Solo or teams of 1&ndash;5.</span></div>
- <div class="tah-detail full"><span></span><span><strong>Theme:</strong> &ldquo;Advance Space Exploration with AI&rdquo; (or the Wildcard Challenge). Free to enter &mdash; includes IBM SkillsBuild resources and a capstone virtual conference on September 16.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://aibuilderschallenge-bob.bemyapp.com/')"> Copy Link</button>
- <a class="tah-btn" href="https://aibuilderschallenge-bob.bemyapp.com/" target="_blank">Register &rarr;</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="us" data-deadline="urgent">
+
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="us" data-deadline="urgent" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Fashion Technology Hackathon Networking Event</div>
  <div class="tah-meta">
  <span class="tah-pill urgent">Limited spots &mdash; approval required</span>
- <div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Where:</strong> Industrious, 505 N Angier Ave NE, Atlanta, GA &mdash; part of #ATLTechWeek.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Format:</strong> In-person hackathon + happy hour where fashion meets technology; bring a laptop to participate.</span></div>
@@ -1734,24 +1602,24 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Heads up:</strong> Only a handful of spots remain and registration requires host approval &mdash; best suited to Atlanta-area alumnae who can move fast.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://luma.com/uuulyx4g')"> Copy Link</button>
  <a class="tah-btn" href="https://luma.com/uuulyx4g" target="_blank">Request to Join &rarr;</a>
  </div>
  </div>
  </div>
 
-    <div class="tah-item" data-personas="all" data-loc="us" data-deadline="future">
+    <div class="tah-item" data-personas="all" data-loc="us" data-deadline="future" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">Grace Hopper Celebration 2026</div>
         <div class="tah-meta">
           <span class="tah-pill future">October 27-30, 2026 in Anaheim, CA</span>
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Event Dates:</strong> October 27-30, 2026</span></div>
           <div class="tah-detail full"><span></span><span><strong>Investment:</strong> Registration required; scholarships available</span></div>
@@ -1759,7 +1627,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> World's largest gathering of women technologists with 30,000+ attendees, networking, career opportunities, and AI/tech learning</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://ghc.anitab.org/')">📋 Copy Link</button>
           <a class="tah-btn" href="https://ghc.anitab.org/" target="_blank">Register →</a>
         </div>
@@ -1767,17 +1635,17 @@ body {
     </div>
 
 
- <div class="tah-item" data-personas="university earlycareer founder" data-loc="us" data-deadline="future">
+ <div class="tah-item" data-personas="university earlycareer founder" data-loc="us" data-deadline="future" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Hackathon Cruise: EscapeAI #BostonTechWeek</div>
  <div class="tah-meta">
  <span class="tah-pill future">During Boston Tech Week</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Event Type:</strong> One-day hackathon followed by celebration cruise on Boston Harbor</span></div>
  <div class="tah-detail full"><span></span><span><strong>Location:</strong> University of Massachusetts Boston campus and Boston Harbor cruise</span></div>
@@ -1786,7 +1654,7 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Build AI solutions that work for real people while networking with developers, entrepreneurs, designers, and problem solvers during Boston Tech Week</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://partiful.com/e/VJHc4dp3eHzVmjPIA8us')"> Copy Link</button>
  <a class="tah-btn" href="https://partiful.com/e/VJHc4dp3eHzVmjPIA8us" target="_blank">Register →</a>
  </div>
@@ -1794,17 +1662,17 @@ body {
  </div>
 
 
-    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="future">
+    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="future" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">Google Girl Hackathon 2026</div>
         <div class="tah-meta">
           <span class="tah-pill future">Multi-stage competition, dates TBA</span>
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> Check Google Build Your Future for dates</span></div>
           <div class="tah-detail full"><span></span><span><strong>Award:</strong> Internship opportunities at top tech companies</span></div>
@@ -1812,7 +1680,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Virtual coding competition with direct pathways to interviews and roles</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://buildyourfuture.withgoogle.com/')"> Copy Link</button>
           <a class="tah-btn" href="https://buildyourfuture.withgoogle.com/" target="_blank">Apply Now →</a>
         </div>
@@ -1820,63 +1688,63 @@ body {
     </div>
 
 
-    <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="future">
+    <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="future" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">ElleHacks 2026 (Canada)</div>
- <div class="tah-meta"><span class="tah-pill future">TBD 2026</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div></div>
+ <div class="tah-meta"><span class="tah-pill future">TBD 2026</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> TBD 2026</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Free hackathon with prizes + workshops + networking</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women and gender-diverse students</span></div>
  <div class="tah-detail full"><span></span><span>Canada's largest hackathon for women and gender-diverse students, running for its 10th iteration. Free, student-run, beginner-friendly competition. Pitch bold solutions to global challenges, participate in workshops, connect with recruiters and industry professionals.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Canada</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://news.mlh.io/welcome-to-the-2026-hackathon-season-07-08-2025')"> Copy Link</button>
  <a class="tah-btn" href="https://news.mlh.io/welcome-to-the-2026-hackathon-season-07-08-2025" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="future">
+ <div class="tah-item" data-personas="secondary university" data-loc="us" data-deadline="future" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">HackHERS 2026 - Rutgers Women in CS Hackathon</div>
- <div class="tah-meta"><span class="tah-pill future">TBA (event typically February)</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div></div>
+ <div class="tah-meta"><span class="tah-pill future">TBA (event typically February)</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> TBA (event typically February)</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Prizes + workshops + mentorship</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> All genders welcome, mission focuses on women in tech</span></div>
  <div class="tah-detail full"><span></span><span>Rutgers' annual 24-hour beginner-friendly hackathon addressing the gender gap in technology. Features workshops, mentorship, tech talks, social activities. Tracks include AI/ML, social impact, and creative tech.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Rutgers University, New Jersey (in-person)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://ruhackhers.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://ruhackhers.org/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">WomenHack Global Career Fair Series 2026</div>
- <div class="tah-meta"><span class="tah-pill rolling">Rolling (120+ cities year-round)</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div></div>
+ <div class="tah-meta"><span class="tah-pill rolling">Rolling (120+ cities year-round)</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling (120+ cities year-round)</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Free attendance + speed interviews with employers</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women and non-binary individuals in tech</span></div>
  <div class="tah-detail full"><span></span><span>World's largest diversity recruiting event series. Free speed-interview nights with tech companies. 2026 confirmed: Berlin Feb 19, Munich Mar 24, Barcelona Mar 31, Helsinki Jun 9. Completely free for candidates.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (120+ cities: SF, NYC, London, Berlin, Tokyo, Singapore, etc.)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://womenhack.com/')"> Copy Link</button>
  <a class="tah-btn" href="https://womenhack.com/" target="_blank">Apply Now →</a>
  </div>
@@ -1885,17 +1753,17 @@ body {
 
  
  
- <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Microsoft Imagine Cup 2026</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Applications open</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Applications open</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Global prizes and recognition</span></div>
@@ -1903,14 +1771,14 @@ body {
  <div class="tah-detail full"><span></span><span>Premier global student technology competition. Build tech solutions for social impact. Free to enter, open to any country.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://imaginecup.microsoft.com/')"> Copy Link</button>
  <a class="tah-btn" href="https://imaginecup.microsoft.com/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">She Loves Tech Global Startup Competition</div>
  <div class="tah-meta">
@@ -1935,7 +1803,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Google Women Techmakers 'She Builds AI' Hackathon</div>
  <div class="tah-meta">
@@ -1960,17 +1828,17 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Kaggle AI Competitions &amp; Learning</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> New competitions launch regularly</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Free access + prize money for competitions (varies)</span></div>
@@ -1978,24 +1846,24 @@ body {
  <div class="tah-detail full"><span></span><span>Kaggle competitions are one of the best ways to build a visible AI portfolio. Great for alumnae looking to demonstrate technical skills to employers or graduate programs.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.kaggle.com/competitions')"> Copy Link</button>
  <a class="tah-btn" href="https://www.kaggle.com/competitions" target="_blank">Explore →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Global Shapers Community (World Economic Forum)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling applications</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free membership</span></div>
@@ -2003,33 +1871,83 @@ body {
  <div class="tah-detail full"><span></span><span>WEF's network for the next generation of global leaders. If you're in your 20s and driving impact in your community, this is the room for you.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.globalshapers.org/shapers')"> Copy Link</button>
  <a class="tah-btn" href="https://www.globalshapers.org/shapers" target="_blank">Learn More →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">TED-Ed Student Talks</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free — earn a TED-Ed credential</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Students globally who want to develop and share ideas through the TED format. Speaker development at any stage.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://ed.ted.com/student_talks/')"> Copy Link</button>
  <a class="tah-btn" href="https://ed.ted.com/student_talks/" target="_blank">Learn More →</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="tah-item" data-personas="all earlycareer founder" data-loc="intl" data-deadline="soon" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">AI.WOMEN Hackathon</div>
+ <div class="tah-meta">
+ <span class="tah-pill soon">September 12&ndash;13, 2026 in Hamburg, Germany</span>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Hamburg, Germany (in-person)</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Hamburg, Germany (in-person)</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Register ahead of Sept 12&ndash;13, 2026</span></div>
+ <div class="tah-detail"><span></span><span><strong>Award:</strong> Two full days building with AI, female mentors + judges</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women, teams up to 5, all experience levels welcome. Up to 300 participants expected.</span></div>
+ <div class="tah-detail full"><span></span><span>An in-person hackathon by AI.HAMBURG built specifically for women working with AI or taking their first steps into the field. Meals and mentorship provided; in-person in Hamburg only, no virtual track.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">Hamburg, Germany (in-person)</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://ai.hamburg/de/event/ai-women-hackathon-2026/')"> Copy Link</button>
+ <a class="tah-btn" href="https://ai.hamburg/de/event/ai-women-hackathon-2026/" target="_blank">Learn More &rarr;</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="soon" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">Smart India Hackathon (SIH) 2026</div>
+ <div class="tah-meta">
+ <span class="tah-pill soon">Idea submission via college SPOC closes September 30, 2026</span>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">India</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">India</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail"><span></span><span><strong>Deadline:</strong> SPOC submits shortlisted teams by Sept 30, 2026</span></div>
+ <div class="tah-detail"><span></span><span><strong>Award:</strong> Recognition, prizes, and access to government/industry problem statements</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Students at Indian colleges/universities, in teams of 6, nominated through their institution's SPOC</span></div>
+ <div class="tah-detail full"><span></span><span>India's flagship national student innovation challenge, run by the Ministry of Education's Innovation Cell. Applications go through your college's own SPOC (Single Point of Contact), not a direct portal link &mdash; check with your institution first. Grand Finale in December 2026.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">India</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://www.sih.gov.in/')"> Copy Link</button>
+ <a class="tah-btn" href="https://www.sih.gov.in/" target="_blank">Learn More &rarr;</a>
  </div>
  </div>
  </div>
@@ -2052,17 +1970,17 @@ body {
  
  <h2 class="tah-section-title"> Courses &amp; Learning <span class="tah-section-count" data-cat-count="courses">0</span></h2>
 
- <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Career Essentials in Generative AI (Microsoft &amp; LinkedIn)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Self-paced &mdash; ~4&ndash;6 hours</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Format:</strong> Free learning path on LinkedIn Learning (requires a free LinkedIn account, not Premium).</span></div>
  <div class="tah-detail full"><span></span><span><strong>You get:</strong> An official Microsoft Professional Certificate plus a LinkedIn profile badge on completion.</span></div>
@@ -2070,71 +1988,48 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> A quick, credible AI-literacy credential &mdash; a nice complement to longer programs like Elements of AI or Google Career Certificates already on this page.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin')"> Copy Link</button>
  <a class="tah-btn" href="https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin" target="_blank">Start Learning &rarr;</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="secondary" data-loc="us" data-deadline="rolling">
- <div class="tah-row">
- <div class="tah-title">Girls Who Code Fall Pathways Program</div>
- <div class="tah-meta">
- <span class="tah-pill rolling">Fall 2024</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US + Online</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US + Online</span></div>
- <div class="tah-grid">
- <div class="tah-detail full"><span></span><span><strong>Cost:</strong> Free</span></div>
- <div class="tah-detail full"><span></span><span><strong>Format:</strong> Virtual program</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> High school students</span></div>
- <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Explore various tech topics and earn certificates that showcase your technical skills to future employers and colleges.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US + Online</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://girlswhocode.my.salesforce-sites.com/GWCEnrollment/apex/ERx_Forms__PageMaker?pageId=Welcome&amp;utm_source=Yesware&amp;utm_medium=Email&amp;utm_campaign=digital_flyer')"> Copy Link</button>
- <a class="tah-btn" href="https://girlswhocode.my.salesforce-sites.com/GWCEnrollment/apex/ERx_Forms__PageMaker?pageId=Welcome&amp;utm_source=Yesware&amp;utm_medium=Email&amp;utm_campaign=digital_flyer" target="_blank">Enroll →</a>
- </div>
- </div>
- </div>
 
 
- <div class="tah-item" data-personas="all secondary university earlycareer founder" data-loc="intl" data-deadline="rolling">
+
+ <div class="tah-item" data-personas="all secondary university earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">AI Skills 4 Women by Founderz × Microsoft</div>
- <div class="tah-meta"><span class="tah-pill rolling">Rolling</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div></div>
+ <div class="tah-meta"><span class="tah-pill rolling">Rolling</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Free online AI course + credential + 150 scholarship opportunities</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women globally, no technical background required</span></div>
  <div class="tah-detail full"><span></span><span>Free online AI course covering fundamentals, prompt engineering, AI ethics, cybersecurity, data analytics, and leadership. 57,000+ women completed in 2025. Top participants can win full scholarships for advanced AI & Innovation Certificate Program. Partnership with UN Women, WomenTech, and STEM Talent Girls.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (13+ languages)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://founderz.com/blog/ai-skills-4-women-2026/')"> Copy Link</button>
  <a class="tah-btn" href="https://founderz.com/blog/ai-skills-4-women-2026/" target="_blank">Enroll →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Girls Who Code Pathways Summer Program 2026</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling enrollment</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling enrollment</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Free 7-week virtual program</span></div>
@@ -2142,23 +2037,23 @@ body {
  <div class="tah-detail full"><span></span><span>Free, flexible, fully virtual learning in AI, coding, and tech for good. Asynchronous coursework with optional live events and mentorship. Beginner-friendly.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://opportunitiesforyouth.org/2026/03/26/girls-who-code-pathways-2026-free-virtual-summer-program-to-learn-ai-coding-build-tech-for-good/')"> Copy Link</button>
  <a class="tah-btn" href="https://opportunitiesforyouth.org/2026/03/26/girls-who-code-pathways-2026-free-virtual-summer-program-to-learn-ai-coding-build-tech-for-good/" target="_blank">Enroll →</a>
  </div>
  </div>
  </div>
- <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Elements of AI - Free Online Course</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">No deadline — self-paced</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> No deadline — self-paced</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Free certificate</span></div>
@@ -2166,24 +2061,24 @@ body {
  <div class="tah-detail full"><span></span><span>2M+ students from 170+ countries. Free courses from University of Helsinki. Self-paced with certificate. Available in 28 languages.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (online)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.elementsofai.com/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.elementsofai.com/" target="_blank">Enroll →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Google AI Quests</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Available Now</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Available now — free, no signup required</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> FREE</span></div>
@@ -2191,14 +2086,14 @@ body {
  <div class="tah-detail full"><span></span><span>Gamified AI literacy adventures where students step into the shoes of Google researchers. Quests cover flood forecasting, detecting diabetic retinopathy, and mapping the human brain. Each quest comes with a full teacher guide. A great resource for alumnae who mentor younger students too.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://research.google/ai-quests/')"> Copy Link</button>
  <a class="tah-btn" href="https://research.google/ai-quests/" target="_blank">Explore →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Code First Girls — Free Coding Courses</div>
  <div class="tah-meta">
@@ -2222,7 +2117,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">SheCodes Free Coding Class</div>
  <div class="tah-meta">
@@ -2246,7 +2141,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary" data-loc="us" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Girls Who Code — Free Summer Programs</div>
  <div class="tah-meta">
@@ -2270,7 +2165,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="us" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="us" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Ada Developers Academy</div>
  <div class="tah-meta">
@@ -2294,7 +2189,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Google Career Certificates</div>
  <div class="tah-meta">
@@ -2318,7 +2213,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Coursera</div>
  <div class="tah-meta">
@@ -2342,6 +2237,31 @@ body {
  </div>
  </div>
 
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">ITU Her Digital Skills Badges</div>
+ <div class="tah-meta">
+ <span class="tah-pill rolling">Rolling &mdash; self-paced</span>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling, self-paced</span></div>
+ <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Girls and women globally looking to build and showcase digital skills.</span></div>
+ <div class="tah-detail full"><span></span><span>A hub of digital skills badges and opportunities from the ITU (UN International Telecommunication Union)'s Her Digital Skills initiative. Good starter resource for secondary and university personas building a foundation.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://hdsbadges.itu.int/herdigitalskills')"> Copy Link</button>
+ <a class="tah-btn" href="https://hdsbadges.itu.int/herdigitalskills" target="_blank">Explore &rarr;</a>
+ </div>
+ </div>
+ </div>
+
  </div><!-- /courses -->
 
  <!-- PROFESSIONAL DEVELOPMENT -->
@@ -2356,17 +2276,17 @@ body {
  
  <h2 class="tah-section-title"> Professional Development <span class="tah-section-count" data-cat-count="prodev">0</span></h2>
 
- <div class="tah-item" data-personas="secondary university" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="secondary university" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">CollegeAdvisor Free College Admissions Webinars</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">2-4 webinars weekly</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail full"><span></span><span><strong>Schedule:</strong> 2-4 free webinars hosted each week on various college admissions topics</span></div>
  <div class="tah-detail full"><span></span><span><strong>Led by:</strong> Former admissions officers, Ivy League alumni, and college admissions experts</span></div>
@@ -2374,7 +2294,7 @@ body {
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Get direct insights from admissions officers and alumni to strengthen your college applications and access expert guidance for free</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.collegeadvisor.com/webinars/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.collegeadvisor.com/webinars/" target="_blank">Register →</a>
  </div>
@@ -2382,44 +2302,20 @@ body {
  </div>
 
 
- <div class="tah-item" data-personas="secondary" data-loc="intl" data-deadline="future">
- <div class="tah-row">
- <div class="tah-title">Girls Who Code Clubs</div>
- <div class="tah-meta">
- <span class="tah-pill future">Apply by July 17th for ice cream gift card entry</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> July 17th for ice cream gift card drawing; rolling applications accepted year-round</span></div>
- <div class="tah-detail full"><span></span><span><strong>Cost:</strong> Completely free program with flexible curriculum resources</span></div>
- <div class="tah-detail full"><span></span><span><strong>Location:</strong> Flexible location options for clubs</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Students in grades 3-12; no coding experience required</span></div>
- <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Gain access to free coding curriculum and emerging technology activities with adaptable resources for summer learning</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://girlswhocode.com/programs/clubs-program')"> Copy Link</button>
- <a class="tah-btn" href="https://girlswhocode.com/programs/clubs-program" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
 
 
-    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling">
+
+    <div class="tah-item" data-personas="all" data-loc="intl" data-deadline="rolling" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">Microsoft Student Ambassadors Program</div>
         <div class="tah-meta">
           <span class="tah-pill rolling">Rolling enrollment - join anytime</span>
-          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> Rolling - no application deadline</span></div>
           <div class="tah-detail full"><span></span><span><strong>Benefits:</strong> Azure credits, software access, certifications, mentorship</span></div>
@@ -2427,7 +2323,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Build AI skills, leadership experience, and direct exposure to Microsoft product teams</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://mvp.microsoft.com/studentambassadors')">📋 Copy Link</button>
           <a class="tah-btn" href="https://mvp.microsoft.com/studentambassadors" target="_blank">Get Started →</a>
         </div>
@@ -2435,17 +2331,17 @@ body {
     </div>
 
 
-    <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling">
+    <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Women in Tech Global Mentorship Program (OneUpOneDown)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling applications</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling applications</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Free mentorship (scholarships available)</span></div>
@@ -2453,23 +2349,23 @@ body {
  <div class="tah-detail full"><span></span><span>Unique mentorship experience for women's leadership journey in tech. Near-peer matching for transformational growth. Can serve as both mentor and mentee.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://women-in-tech-mentoring.oneuponedown.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://women-in-tech-mentoring.oneuponedown.org/" target="_blank">Join →</a>
  </div>
  </div>
  </div>
- <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Build For Good Labs Student Builder Program Summer 2026</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling (June-Sept 2026)</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling (June-Sept 2026)</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Free 10-week program</span></div>
@@ -2477,14 +2373,14 @@ body {
  <div class="tah-detail full"><span></span><span>Free, hands-on program. Design, build, and ship a real tech solution for social good with mentorship from professionals. Portfolio-ready work.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (virtual)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.buildforgoodlabs.org/2026-student-builder-program')"> Copy Link</button>
  <a class="tah-btn" href="https://www.buildforgoodlabs.org/2026-student-builder-program" target="_blank">Join →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">LinkedIn Professional Skills Workshops</div>
  <div class="tah-meta">
@@ -2508,7 +2404,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">EQUALS e-Mentoring Program</div>
  <div class="tah-meta">
@@ -2532,96 +2428,96 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">WomenTech Network</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling / annual conference</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free membership + paid events</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Women in tech globally. Community, events, and curated job board from companies committed to diversity.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.womentech.net/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.womentech.net/" target="_blank">Join →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">We Are Family Foundation</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Grants + support programs</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Young changemakers globally. Supports youth leadership and community impact initiatives.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.wearefamilyfoundation.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.wearefamilyfoundation.org/" target="_blank">Learn More →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all secondary university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">FLX Africa — Community for Young Women in Africa </div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free community + programs</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Young women in Africa. Programs, community, and resources for African women building careers and ventures in tech.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://flx.africa/community/')"> Copy Link</button>
  <a class="tah-btn" href="https://flx.africa/community/" target="_blank">Join →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all university earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Community Leadership Certificate (University of Waterloo)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling cohorts</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free certificate program</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Students and community leaders. Free leadership certificate from the University of Waterloo — available online.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://uwaterloo.ca/student-success/clc')"> Copy Link</button>
  <a class="tah-btn" href="https://uwaterloo.ca/student-success/clc" target="_blank">Learn More →</a>
  </div>
@@ -2648,24 +2544,24 @@ body {
  
  <h2 class="tah-section-title"> Founders Hub <span class="tah-section-count" data-cat-count="founders">0</span></h2>
 
- <div class="tah-item" data-personas="all founder" data-loc="us" data-deadline="future">
+ <div class="tah-item" data-personas="all founder" data-loc="us" data-deadline="future" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Her Agenda &mdash; The Breakthrough Grant</div>
  <div class="tah-meta">
  <span class="tah-pill future">Applications close September 18, 2026</span>
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Award:</strong> $5,000 (Volume III)</span></div><div class="tah-detail"><span></span><span><strong>Application fee:</strong> $50 ($25 for Her Agenda INSIDER members)</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> US-based women entrepreneurs, 18+, with a currently operating business. Must be subscribed to the Her Agenda newsletter to be considered.</span></div>
  <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> A community-funded grant from Her Agenda, an established women's career and entrepreneurship media platform &mdash; a smaller, more accessible funding pool than some of the larger accelerators on this page.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://grant.heragenda.com/')"> Copy Link</button>
  <a class="tah-btn" href="https://grant.heragenda.com/" target="_blank">Apply Now &rarr;</a>
  </div>
@@ -2677,38 +2573,19 @@ body {
 
     
 
- <div class="tah-item" data-personas="founder earlycareer" data-loc="intl" data-deadline="urgent">
- <div class="tah-row">
- <div class="tah-title">AWIEF Pitch n Grow 2026 — Women Entrepreneurship Competition</div>
- <div class="tah-meta"><span class="tah-pill urgent">Deadline: July 20, 2026</span><div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa</span></div></div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Deadline:</strong> July 20, 2026</span></div><div class="tah-detail"><span></span><span><strong>Prize:</strong> Cash prizes, plus travel &amp; accommodation for finalists</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women founders &amp; co-founders across Africa building deep-tech ventures &mdash; pre-venture, early-stage, or growth-stage. Mixed-gender teams welcome if the person pitching is a female founder/co-founder.</span></div>
- <div class="tah-detail full"><span></span><span>AWIEF&rsquo;s flagship pan-African pitch competition, themed &ldquo;Deep Roots, Digital Futures.&rdquo; Selected participants receive expert-led bootcamps, investor mentorship, ecosystem access, and media exposure. Finalists pitch live at the AWIEF 2026 Conference in Cape Town on November 10&ndash;11, 2026.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-urgent">URGENT</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://awief.untap.us/pitch-n-grow2026')"> Copy Link</button>
- <a class="tah-btn" href="https://awief.untap.us/pitch-n-grow2026" target="_blank">Apply Now &rarr;</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="all" data-loc="us" data-deadline="urgent">
+
+ <div class="tah-item" data-personas="all" data-loc="us" data-deadline="rolling" data-added="legacy">
       <div class="tah-row">
         <div class="tah-title">Village Capital US Women in Tech Accelerator</div>
         <div class="tah-meta">
-          <span class="tah-pill urgent">Rolling cohorts - check for next deadline</span>
-          <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <span class="tah-pill rolling">Rolling cohorts - check for next deadline</span>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         </div>
         <span class="tah-chev">&#9660;</span>
       </div>
       <div class="tah-body">
-        <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+        <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
         <div class="tah-grid">
           <div class="tah-detail full"><span></span><span><strong>Deadline:</strong> Multiple cohorts throughout 2026</span></div>
           <div class="tah-detail full"><span></span><span><strong>Award:</strong> $25,000 grants (2 startups selected by peers)</span></div>
@@ -2716,7 +2593,7 @@ body {
           <div class="tah-detail full"><span></span><span><strong>Why it matters:</strong> Peer-selected grants, mentorship from investors, milestone-tracking tools, and investment readiness training</span></div>
         </div>
         <div class="tah-foot">
-          <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
+          <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">US Only</span></div>
           <button class="tah-copy-btn" onclick="copyLink('https://vilcap.com/programs/women-in-tech-accelerator-us-2026')">📋 Copy Link</button>
           <a class="tah-btn" href="https://vilcap.com/programs/women-in-tech-accelerator-us-2026" target="_blank">Apply →</a>
         </div>
@@ -2724,21 +2601,21 @@ body {
     </div>
 
 
-<div class="tah-item" data-personas="founder earlycareer" data-loc="intl" data-deadline="rolling">
+<div class="tah-item" data-personas="founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">UBS Project Female Founder — Global Accelerator</div>
- <div class="tah-meta"><span class="tah-pill rolling">Rolling — apply early</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div></div>
+ <div class="tah-meta"><span class="tah-pill rolling">Rolling — apply early</span><div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling — apply early, cohorts fill quickly</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> Free 8-week intensive accelerator + 12-month activation program</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women founders globally with an early-stage tech startup</span></div>
  <div class="tah-detail full"><span></span><span>One of the most accessible global accelerators for women founders. 100 founders per cohort receive VC introductions, business coaching, investor pitch practice, and a 12-month activation network. Backed by UBS and designed specifically for women-led ventures.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.ubs.com/global/en/wealthmanagement/who-we-serve/women-wealth/female-founders/project-female-founder.html')"> Copy Link</button>
  <a class="tah-btn" href="https://www.ubs.com/global/en/wealthmanagement/who-we-serve/women-wealth/female-founders/project-female-founder.html" target="_blank">Apply Now →</a>
  </div>
@@ -2746,38 +2623,38 @@ body {
  </div>
 
 
- <div class="tah-item" data-personas="earlycareer founder" data-loc="intl" data-deadline="future">
+ <div class="tah-item" data-personas="earlycareer founder" data-loc="intl" data-deadline="future" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">TiE Women Global Pitch Competition 2026</div>
- <div class="tah-meta"><span class="tah-pill future">TBD 2026</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div></div>
+ <div class="tah-meta"><span class="tah-pill future">TBD 2026</span><div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div></div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> TBD 2026</span></div><div class="tah-detail"><span></span><span><strong>Award:</strong> $50,000 grand prize at TiE Global Summit 2026 + chapter-level mentoring</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women co-founders with minimum 33% stakeholder; companies registered after Jan 1, 2019</span></div>
  <div class="tah-detail full"><span></span><span>Chapter-level mentoring sessions followed by regional pitch competitions to select finalists. Winners and runners-up receive exclusive series on global scaling, investor relations, and strategy. Grand finale at TiE Global Summit 2026 with global panel of investors.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Global (62 countries)</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.tiewomen.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.tiewomen.org/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Women in Tech Accelerator 2026 (Standard Chartered Foundation)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling — apply early</span>
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Rolling — apply early</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Up to $600K in grants across cohort</span></div>
@@ -2785,7 +2662,7 @@ body {
  <div class="tah-detail full"><span></span><span>Specialized program strengthening women-led startups with grant funding, mentorship, investment-readiness training, and strategic networks across 12 markets.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">Africa, Middle East, Pakistan</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://opportunitiesforyouth.org/2026/05/08/2026-us-women-in-tech-accele/')"> Copy Link</button>
  <a class="tah-btn" href="https://opportunitiesforyouth.org/2026/05/08/2026-us-women-in-tech-accele/" target="_blank">Apply Now →</a>
  </div>
@@ -2793,42 +2670,19 @@ body {
  </div>
  <p class="tah-section-intro"></p>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="soon">
- <div class="tah-row">
- <div class="tah-title">Cartier Women's Initiative 2027</div>
- <div class="tah-meta">
- <span class="tah-pill tb-soon">Closes Jun 16</span>
- <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- </div>
- <span class="tah-chev">&#9660;</span>
- </div>
- <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <div class="tah-grid">
- <div class="tah-detail"><span></span><span><strong>Timing:</strong> Applications now open — check site for 2027 cycle deadline</span></div>
- <div class="tah-detail"><span></span><span><strong>Award:</strong> Up to $100,000 + business coaching + global network access</span></div>
- <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women-led businesses globally, 1–6 years old, revenue-generating, &lt;$2M dilutive funding — any country, any sector.</span></div>
- <div class="tah-detail full"><span></span><span>One of the most prestigious global awards for women founders. 9 regional tracks + Science &amp; Technology Pioneer Award. Start preparing your application now.</span></div>
- </div>
- <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
- <button class="tah-copy-btn" onclick="copyLink('https://www.cartierwomensinitiative.com/regional-awards')"> Copy Link</button>
- <a class="tah-btn" href="https://www.cartierwomensinitiative.com/regional-awards" target="_blank">Apply Now →</a>
- </div>
- </div>
- </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
+
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">WAIC FUTURETECH Pitching Competition — Shanghai</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling — check site for current deadline</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Up to $72,000 in benefits including a fully sponsored trip to Shanghai + 6sqm booth + investor access</span></div>
@@ -2836,24 +2690,24 @@ body {
  <div class="tah-detail full"><span></span><span>Winners get access to the World AI Conference in Shanghai (800+ companies, 1,200+ global experts, 300,000+ attendees). Includes flights, accommodation, AI immersion in Shanghai's leading tech hubs, and connections to investors and corporates.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://bit.ly/WAICpitch')"> Copy Link</button>
  <a class="tah-btn" href="https://bit.ly/WAICpitch" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Google for Startups Women Founders Fund</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Watch for cohort</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Watch for 2026 cohort opening — check site</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Up to $100,000 equity-free cash + Google Cloud credits + mentorship</span></div>
@@ -2861,24 +2715,24 @@ body {
  <div class="tah-detail full"><span></span><span>One of the strongest equity-free grant programs for women founders. Includes ongoing Google mentorship, Cloud credits, and access to the Google for Startups alumni network. Watch for the 2026 cohort announcement.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://startup.google.com/programs/women-founders-fund/')"> Copy Link</button>
  <a class="tah-btn" href="https://startup.google.com/programs/women-founders-fund/" target="_blank">Learn More →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">NSF SBIR/STTR — AI Track (Non-Dilutive Government Funding)</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling windows</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling / periodic submission windows</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Up to $275,000 (Phase I)  Up to $2M total  no equity taken</span></div>
@@ -2886,14 +2740,14 @@ body {
  <div class="tah-detail full"><span></span><span>America's most underused funding source for tech founders. Federal grant money with no equity requirements and no repayment. NSF has funded $4B+ in early-stage tech R&amp;D. If you're building an AI product and are US-based, this is worth knowing about.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">US Only</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://seedfund.nsf.gov/topics/artificial-intelligence/')"> Copy Link</button>
  <a class="tah-btn" href="https://seedfund.nsf.gov/topics/artificial-intelligence/" target="_blank">Learn More →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">IFundWomen Universal Funding Application</div>
  <div class="tah-meta">
@@ -2917,7 +2771,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Amber Grant for Women</div>
  <div class="tah-meta">
@@ -2942,7 +2796,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">AI Grant (Nat Friedman &amp; Daniel Gross)</div>
  <div class="tah-meta">
@@ -2967,7 +2821,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">WE Empower UN SDG Challenge</div>
  <div class="tah-meta">
@@ -2991,7 +2845,7 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">KPMG Female Founders Africa </div>
  <div class="tah-meta">
@@ -3015,74 +2869,124 @@ body {
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Y Combinator Startup School</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling admissions</span></div>
  <div class="tah-detail"><span></span><span><strong>Cost:</strong> Free program</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> Early-stage founders globally — pre-idea to early traction. Free curriculum, community, and weekly office hours with YC partners.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-priority">PRIORITY</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.startupschool.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.startupschool.org/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Women Founders Grant — Monthly $5,000</div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Monthly</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling monthly (last day of each month)</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> $5,000/month — no equity required</span></div>
  <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Women entrepreneurs globally with a business idea or existing business. $25 application fee. Any woman over 18.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.womenfoundersgrant.com/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.womenfoundersgrant.com/" target="_blank">Apply Now →</a>
  </div>
  </div>
  </div>
 
- <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling">
+ <div class="tah-item" data-personas="all founder" data-loc="intl" data-deadline="rolling" data-added="legacy">
  <div class="tah-row">
  <div class="tah-title">Baobab Platform </div>
  <div class="tah-meta">
  <span class="tah-pill rolling">Rolling</span>
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  </div>
  <span class="tah-chev">&#9660;</span>
  </div>
  <div class="tah-body">
- <div class="tah-mob-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-mob-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <div class="tah-grid">
  <div class="tah-detail"><span></span><span><strong>Timing:</strong> Rolling</span></div>
  <div class="tah-detail"><span></span><span><strong>Award:</strong> Investment + community access</span></div>
  <div class="tah-detail full"><span></span><span><strong>Who it's for:</strong> African founders building scalable ventures. Investment and founder community focused on Africa.</span></div>
  </div>
  <div class="tah-foot">
- <div class="tah-badges"><span class="tb tb-new">NEW</span><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-badges"><span class="tb tb-rolling">ROLLING</span><span class="tb tb-loc">International</span></div>
  <button class="tah-copy-btn" onclick="copyLink('https://www.baobabplatform.org/')"> Copy Link</button>
  <a class="tah-btn" href="https://www.baobabplatform.org/" target="_blank">Learn More →</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="tah-item" data-personas="all founder university earlycareer" data-loc="intl" data-deadline="soon" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">LSE Generate Global Innovation Challenge</div>
+ <div class="tah-meta">
+ <span class="tah-pill soon">Regional qualifiers close through September 2026</span>
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail"><span></span><span><strong>Deadline:</strong> Regional Qualifiers run Aug&ndash;Sept 2026 &mdash; confirm exact cutoff for your region</span></div>
+ <div class="tah-detail"><span></span><span><strong>Award:</strong> Advancement to Live Global Finals; pitch deck format</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Teams pitching early-stage ideas; five global regions (North America, South America, Europe/Central Asia, APAC, Middle East/Africa/Russia)</span></div>
+ <div class="tah-detail full"><span></span><span>LSE Generate's global pitch competition. Top 4 teams per region advance to the Live Global Finals. Submissions are a pitch deck defining the problem and solution, AI tools allowed.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-soon">SOON</span><span class="tb tb-new">NEW</span><span class="tb tb-loc">International</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://www.globinnovation.org/timelineandguidelines')"> Copy Link</button>
+ <a class="tah-btn" href="https://www.globinnovation.org/timelineandguidelines" target="_blank">Learn More &rarr;</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="tah-item" data-personas="all founder earlycareer" data-loc="intl" data-deadline="future" data-added="2026-09">
+ <div class="tah-row">
+ <div class="tah-title">MIT Solve &mdash; 2027 Global Challenges</div>
+ <div class="tah-meta">
+ <span class="tah-pill future">Opens September 22, 2026</span>
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ </div>
+ <span class="tah-chev">&#9660;</span>
+ </div>
+ <div class="tah-body">
+ <div class="tah-mob-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <div class="tah-grid">
+ <div class="tah-detail"><span></span><span><strong>Opens:</strong> September 22, 2026</span></div>
+ <div class="tah-detail"><span></span><span><strong>Award:</strong> Share of $1M+ in prize funding, plus MIT/Solve community support</span></div>
+ <div class="tah-detail full"><span></span><span><strong>Eligibility:</strong> Early-stage tech innovators working on climate, learning, health, or economic prosperity</span></div>
+ <div class="tah-detail full"><span></span><span>MIT Solve's annual open call for tech-based solutions to global challenges. Winners get ongoing support to help scale their work, not just prize money. Applications open Sept 22, 2026 &mdash; mark the date now.</span></div>
+ </div>
+ <div class="tah-foot">
+ <div class="tah-badges"><span class="tb tb-future">FUTURE</span><span class="tb tb-new">NEW</span><span class="tb tb-priority">PRIORITY</span><span class="tb tb-loc">International</span></div>
+ <button class="tah-copy-btn" onclick="copyLink('https://solve.mit.edu/challenges#open-challenge')"> Copy Link</button>
+ <a class="tah-btn" href="https://solve.mit.edu/challenges#open-challenge" target="_blank">Learn More &rarr;</a>
  </div>
  </div>
  </div>
@@ -3350,7 +3254,54 @@ function tahInit() {
  }, 2500);
  }
 
+ // ── AUTO NEW BADGES (based on data-added="YYYY-MM") ──────────
+ function tahUpdateNewBadges() {
+ var now = new Date();
+ var currentMonth = now.getFullYear() + '-' + String(now.getMonth() + 1).padStart(2, '0');
+ document.querySelectorAll('.tah-item').forEach(function(item) {
+ var added = item.getAttribute('data-added');
+ var shouldBeNew = added === currentMonth;
+ var containers = item.querySelectorAll('.tah-badges, .tah-mob-badges');
+ containers.forEach(function(container) {
+ var existing = container.querySelector('.tb-new');
+ if (shouldBeNew && !existing) {
+ var span = document.createElement('span');
+ span.className = 'tb tb-new';
+ span.textContent = 'NEW';
+ if (container.firstElementChild) {
+ container.insertBefore(span, container.firstElementChild.nextSibling);
+ } else {
+ container.appendChild(span);
+ }
+ } else if (!shouldBeNew && existing) {
+ existing.remove();
+ }
+ });
+ });
+ }
+
+ // ── AUTO LAST UPDATED (from newest data-added across items) ───
+ function tahUpdateLastUpdated() {
+ var el = document.getElementById('tah-last-updated');
+ if (!el) return;
+ var monthNames = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+ var newest = null;
+ document.querySelectorAll('.tah-item').forEach(function(item) {
+ var added = item.getAttribute('data-added');
+ if (added && /^\d{4}-\d{2}$/.test(added)) {
+ if (!newest || added > newest) newest = added;
+ }
+ });
+ if (!newest) return;
+ var parts = newest.split('-');
+ var year = parseInt(parts[0], 10);
+ var monthIdx = parseInt(parts[1], 10) - 1;
+ el.textContent = 'Last Updated: ' + monthNames[monthIdx] + ' ' + year;
+ }
+
  // ── INIT ─────────────────────────────────────────────────────
+ tahUpdateNewBadges();
+ tahUpdateLastUpdated();
  readHash();
  syncButtonsToState();
  applyFilters();
